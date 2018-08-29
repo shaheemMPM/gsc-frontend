@@ -1,0 +1,17 @@
+html, body {
+    height:100%;
+    margin:0;
+    padding:0;
+}
+h1{
+    margin:0;
+    padding:0;
+    vertical-align:middle;
+    display:table-cell;
+}
+#section1 {
+    width:100%;
+    min-height:90%;
+    text-align:center;
+    display:table;
+}
