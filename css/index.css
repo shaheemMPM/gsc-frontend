@@ -1,7 +1,8 @@
 
 body
 {
-  background: #ebf0f1;
+  background: rgba(54, 54, 54, 0.5);
+  width: 100%;
 }
 
 .join-us
@@ -20,16 +21,15 @@ body
   display: inline;
 }
 
-.content-part
+body > div : content-part
 {
+  width: 100%;
   min-height: 100vh;
   max-height: 100%;
-  background: #ebf0f1;
 }
 
 .leader-board
 {
-
 }
 
 .profile-cards
@@ -60,6 +60,20 @@ body
   margin: -50px auto;
   box-shadow: -3px 5px 10px rgba(225, 128, 0, 0.5);
 }
+@media screen and (max-width: 800px) {
+  .user-avatar
+  {
+    display: inline-block;
+    vertical-align: bottom;
+    float: left;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: -3px 5px 10px rgba(225, 128, 0, 0.5);
+  }
+}
 
 .footer-part h1
 {
@@ -76,14 +90,26 @@ body
   vertical-align: bottom;
 }
 
+.footer-details
+{
+  display: inline;
+}
+
 .social-media
 {
-  display: block;
-  position: fixed;
-  right: 50px;
-  bottom: 50px;
+  display: inline;
+  float: right;
+  margin-top: 40px;
   font-size: 25px;
   letter-spacing: 8px;
+}
+@media screen and (max-width : 800px) {
+  .social-media
+  {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 100px;
+  }
 }
 
 .recent-task
@@ -95,6 +121,14 @@ body
   margin-left: 30px;
   font-size: 20px;
   line-height: 1.6;
+}
+@media screen and (max-width : 800px) {
+  .recent-task
+  {
+    margin-top: 26px;
+    line-height: 1.4;
+    font-size: 18px;
+  }
 }
 
 .recent-task font
@@ -110,4 +144,13 @@ body
   text-transform: uppercase;
   width: 100%;
   margin-top: 60px;
+}
+@media screen and (max-width : 800px) {
+  .user-name
+  {
+    width: auto;
+    margin: 40px auto 0 5px;
+    font-size: 20px;
+
+  }
 }
