@@ -3,7 +3,19 @@ html, body
 {
   width: 100%;
   overflow-x: hidden;
-  background: rgba(54, 0, 54, 0.5);
+  background: #111d28;
+}
+
+.top-sect
+{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.top-sect h1, h2
+{
+  color : #fff !important;
 }
 
 .join-us
@@ -17,9 +29,10 @@ html, body
   font-size: 20px;
 }
 
-.join-us i p
+.join-us i
 {
   display: inline;
+  color: #fff;
 }
 
 body > div : content-part
@@ -40,15 +53,23 @@ body > div : content-part
 
 .user-card
 {
-  background: #fff;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin-right: 25px;
   display: inline-block;
+  color: rgba(255, 255, 255, 0.5);
   width: 300px;
   height: 400px;
   border-radius: 8px;
-  -webkit-box-shadow: -7px 7px 10px 0px rgba(207,207,207,1);
-  -moz-box-shadow: -7px 7px 10px 0px rgba(207,207,207,1);
-  box-shadow: -7px 7px 10px 0px rgba(207,207,207,1);
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(22,7,43,1);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(22,7,43,1);
+  box-shadow: 2px 2px 5px 0px rgba(22,7,43,1);
+}
+
+.user-card font
+{
+  color: #fff !important;
 }
 
 .user-avatar
@@ -75,11 +96,18 @@ body > div : content-part
   }
 }
 
-.footer-part h1
+.footer-part
+{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer-part h1, i
 {
   display: inline;
   font-size: 28px;
-  color: rgba(255, 255, 255, 0.5);
+  color: #fff;
 }
 
 .footer-logo
@@ -144,7 +172,14 @@ body > div : content-part
   text-transform: uppercase;
   width: 100%;
   margin-top: 60px;
+  color: #rgba(255, 255, 255, 0.5);
 }
+
+.user-name:hover
+{
+  color: #fff;
+}
+
 @media screen and (max-width : 800px) {
   .user-name
   {
