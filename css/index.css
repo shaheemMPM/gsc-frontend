@@ -1,8 +1,9 @@
 
-body
+html, body
 {
-  background: rgba(54, 54, 54, 0.5);
   width: 100%;
+  overflow-x: hidden;
+  background: rgba(54, 0, 54, 0.5);
 }
 
 .join-us
@@ -23,7 +24,6 @@ body
 
 body > div : content-part
 {
-  width: 100%;
   min-height: 100vh;
   max-height: 100%;
 }
