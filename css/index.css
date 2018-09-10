@@ -40,6 +40,18 @@ a
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+@media screen and (max-width: 800px)
+{
+  .main-title
+  {
+    font-size: 24px;
+  }
+  .sub-title
+  {
+    font-size: 14px;
+  }
+}
+
 .join-us
 {
   float: right;
@@ -49,6 +61,13 @@ a
   border-radius: 20px;
   padding: 5px 10px 5px 10px;
   font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .join-us
+  {
+    font-size: 18px;
+  }
 }
 
 .join-us i
@@ -101,9 +120,11 @@ a
 @media screen and (max-width : 800px) {
   .social-media
   {
-    width: 100%;
-    margin-top: 0px;
-    margin-left: 100px;
+    width: 150px;
+    float: left;
+    display: block;
+    margin-top: -5px;
+    margin-left: 10px;
   }
 }
 
@@ -210,6 +231,7 @@ a
   height: 30px;
   text-align: center;
 }
+
 .normal-streak
 {
   margin-left: 30px;
@@ -247,9 +269,19 @@ a
    background: #1b354f;
 }
 
-.card-column : hover
-{
-  transform: scale(1.5);
+@media screen and (max-width : 800px){
+  .card-column
+  {
+    width: 400px;
+    display: block;
+    margin: 10px auto;
+  }
+  .table-two
+  {
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+  }
 }
 
 .table-one
