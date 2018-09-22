@@ -7,7 +7,7 @@
     <title>Username | GetSetCode</title>
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/bulma.css">
-    <script src="../scripts/Chart.min.js"></script>
+    <link rel="stylesheet" href="../css/odometer-theme-minimal.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
   </head>
@@ -76,10 +76,17 @@
                 </div>
                 <div class="activity-graph">
                   <canvas id="chartWeek" width="400" height="400"></canvas>
-                  <script src="../scripts/week.js"></script>
                   <canvas id="chartMonth" width="400" height="400"></canvas>
-                  <script src="../scripts/month.js"></script>
                 </div>
+                <div class="odoText">
+                  Tasks Done
+                </div>
+                  <span id="odometer" class="odometer">0</span>
+                <script type="text/javascript">
+                  setTimeout(function(){
+                    odometer.innerHTML = 45;
+                  }, 500);
+                </script>
               </div>
           </div>
           <div class="cloumn is-three-quarter right-parent">
@@ -241,5 +248,9 @@
     </section>
   <!-- Bottom Section (footer) -->
 
+  <script src="../scripts/odometer.min.js"></script>
+  <script src="../scripts/Chart.min.js"></script>
+  <script src="../scripts/month.js"></script>
+  <script src="../scripts/week.js"></script>
   </body>
 </html>

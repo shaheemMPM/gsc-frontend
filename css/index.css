@@ -483,3 +483,20 @@ a
 {
   padding-top: 8px;
 }
+
+.odometer
+{
+  width: 100%;
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.odoText
+{
+  margin-top: 20px;
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+}
