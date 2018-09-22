@@ -366,6 +366,23 @@ a
   overflow: auto;
 }
 
+@media screen and (max-width : 800px){
+  .left-parent{
+    width: 100%;
+  }
+  .userboard{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .day-this{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .use
 {
   margin-top: 15px;
