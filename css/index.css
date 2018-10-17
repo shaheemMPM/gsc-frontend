@@ -376,7 +376,7 @@ a
     margin-right: auto;
   }
 
-  .day-this{
+  .activities-inner{
     width: 90vw;
     margin-left: auto;
     margin-right: auto;
@@ -454,7 +454,7 @@ a
   margin-right: 50px;
 }
 
-.day-this
+.activities-inner
 {
   min-width: 100%;
   display: block;
@@ -464,22 +464,22 @@ a
   background: #1b354f;
 }
 
-.date-p
+.board-header
 {
-  padding-top: 15px;
-  margin-left: 20px;
-  font-size: 18px;
+  padding-top: 25px;
+  margin-left: 30px;
+  font-size: 22px;
   font-weight: bold;
 }
 
-.today-activity
+.list-activity
 {
   margin-left: 20px;
   padding-top: 15px;
   padding-bottom: 20px;
 }
 
-.today-activity ul li
+.list-activity ul li
 {
   padding-top: 8px;
 }
@@ -499,4 +499,37 @@ a
   font-size: 25px;
   width: 100%;
   text-align: center;
+}
+
+.boards
+{
+  padding: 90px 50px 0px 50px;
+}
+
+.activity-box
+{
+  background: #4883c4;
+  margin-right: 12px;
+  padding: 5px 5px 5px 5px;
+  text-align: justify;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.work-date
+{
+  width: 100%;
+  text-align: right;
+  padding-right: 8px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.work-time
+{
+  float: right;
+  padding-right: 5px;
+  font-size: 14px;
+  padding-top: 3px;
+  color: rgba(255, 255, 255, 0.8);
 }
